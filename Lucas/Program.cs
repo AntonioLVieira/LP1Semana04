@@ -6,8 +6,7 @@ namespace Lucas
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Give me a number: ");
-            int n = int.Parse(Console.ReadLine());
+            int n = int.Parse(args[0]);
             Console.WriteLine(Lucas(n));
         }
         private static int Lucas(int n)
